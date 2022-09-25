@@ -1,0 +1,129 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Кнопка</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" id="theme" />
+		<!-- Кодировка страницы -->
+		<meta charset= "UTF-8" />
+		<meta name="viewport"content="width=device-width"/>
+
+
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+	<div class="wrapper">
+		
+		<header class="header">
+			<div class="container">
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img src="img/logo.gif" alt="">
+					</a>
+					
+					<div class="header__burger">
+						<span>  </span>
+					</div>
+					
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+							<a href="#" class="header__link">Главная</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">Магазин</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">Полезное</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">Ссылки</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">О нас</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">Контакты</a>
+							</li>
+							<li>
+							<a href="#" class="header__link">Карта</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="content2">
+			<div class="container">
+				<button id="switchMode">DWmode</button>
+				<br><br><br>
+				<h1>Курсы валют</h1>
+				<br><br><br>
+				<h2>Безналичный расчет</h2>
+				
+		<p>Покупка</p>
+				<br>
+				<div class="currency-row" id="dollar">
+					<div class="currency-info">&#36;</div>
+					<span id="usd">30</span> &nbsp; грн за доллар
+					</div>
+					<div class="currency-row" id="euro">
+						<div class="currency-info"> &#8364; </div>
+						<span id="eur">30</span> &nbsp; грн за евро
+				</div>
+<br>
+		<p> Продажа </p>
+<br>
+				<div class="currency-row" id="dollar2">
+					<div class="currency-info">&#36;</div>
+					<span id="u">30</span> &nbsp; грн за доллар  
+					</div>
+					<div class="currency-row" id="euro1">
+						<div class="currency-info">&#8364;</div>
+						<span id="e">30</span> &nbsp; грн за евро
+				</div>
+			</div>
+<br><br>
+			<div class="container">
+				<h2>Наличный расчет</h2>
+				<p>Покупка</p>
+				<br>
+				<div class="currency-row" id="dollar">
+					<div class="currency-info">&#36;</div>
+					<span id="pusd">30</span> &nbsp; грн за доллар
+					</div>
+					<div class="currency-row" id="euro">
+						<div class="currency-info">&#8364;</div>
+						<span id="peur">30</span>  &nbsp; грн за евро
+				</div>
+				<br>
+				<p>Продажа</p>
+				<br>
+
+				<div class="currency-row" id="dollar2">
+					<div class="currency-info">&#36;</div>
+					<span id="pu">30</span> &nbsp; грн за доллар
+					</div>
+					<div class="currency-row" id="euro1">
+						<div class="currency-info">&#8364;</div>
+						<span id="pe">30</span>  &nbsp; грн за евро
+				</div>
+			</div>
+		</div>
+			</div>
+		</div>
+
+	</div>	
+	
+
+
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+</html>
