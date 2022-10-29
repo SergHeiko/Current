@@ -147,6 +147,7 @@ button:hover {
    background-color: rgb(14, 57, 17);
    text-align: center;
    color: #fff;
+	transition: 1s;
 
 }
 .footer__body {
