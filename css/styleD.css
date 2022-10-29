@@ -99,6 +99,8 @@ h2 {
 
 button{
   padding: 8px;
+	display: flex;
+	margin-left: auto;
   background-color: rgb(24, 139, 64);;
   color: #fff;
   border: none;
