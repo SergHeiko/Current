@@ -137,7 +137,17 @@ button:hover {
 
 
 
+.footer {
+   background-color: rgb(21, 131, 54);
+   text-align: center;
 
+}
+.footer__body {
+   max-width: 700px;
+   margin: 0px auto;
+   padding: 30px 20px;
+
+}
 
 
 
