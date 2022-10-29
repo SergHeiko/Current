@@ -98,13 +98,14 @@ h2 {
 }
 
 button{
-  padding: 8px;
+  
 	display: flex;
 	margin-left: auto;
+	padding: 8px;
   background-color: rgb(24, 139, 64);;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 1em;
   
   outline: none;
