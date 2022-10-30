@@ -139,21 +139,21 @@ button:hover {
 
 
 .content2 {
-height: 100vh;
+min-height: 100vh;
 }
 
 
 
 .footer {
-	position: relative;
-  	width: 100%;
-   background-color: rgb(21, 131, 54);
+	 background-color: rgb(14, 57, 17);
    text-align: center;
-	transition: 1s;
+   color: #fff;
+   transition: 1s;
 
 }
 .footer__body {
    
+  max-width: 700px;
    margin: 0px auto;
    padding: 30px 20px;
 
